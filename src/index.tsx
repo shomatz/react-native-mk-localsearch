@@ -38,6 +38,12 @@ export function multiply(a: number, b: number): Promise<number> {
   return MkLocalsearch.multiply(a, b);
 }
 
-export function search(query: string, region: Region): Promise<any> {
-  return MkLocalsearch.search(query, region);
+export function search(query: string, region: Region): Promise<MapItem[]> {
+  return new Promise<MapItem[]>((resolve, reject) => {
+    MkLocalsearch.search(query, region)
+      .then((results: any) => {
+        resolve(results || []);
+      })
+      .catch(reject);
+  });
 }
