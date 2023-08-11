@@ -1,6 +1,6 @@
 {
   "name": "react-native-mk-localsearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-native-mk-localsearch",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
