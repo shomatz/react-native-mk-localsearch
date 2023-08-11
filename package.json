@@ -1,6 +1,6 @@
 {
   "name": "@azzuhry/react-native-mk-localsearch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react-native-mk-localsearch",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
