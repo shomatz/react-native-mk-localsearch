@@ -47,3 +47,7 @@ export function search(query: string, region: Region): Promise<MapItem[]> {
       .catch(reject);
   });
 }
+
+export default {
+  search,
+};
