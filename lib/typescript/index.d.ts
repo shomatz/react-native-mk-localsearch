@@ -14,5 +14,5 @@ export type MapItem = {
     url: string;
 };
 export declare function multiply(a: number, b: number): Promise<number>;
-export declare function search(query: string, region: Region): Promise<any>;
+export declare function search(query: string, region: Region): Promise<MapItem[]>;
 //# sourceMappingURL=index.d.ts.map
