@@ -28,8 +28,6 @@ class MkLocalsearch: NSObject {
                 return ["latitude": mapItem.placemark.coordinate.latitude,
                         "longitude": mapItem.placemark.coordinate.longitude,
                         "name": mapItem.name ?? (mapItem.placemark.name ?? ""),
-                        "title": mapItem.placemark.title ?? "",
-                        "subtitle": mapItem.placemark.subtitle ?? "",
                         "phoneNumber": mapItem.phoneNumber ?? "",
                         "url": mapItem.url?.absoluteString ?? ""]
             }
